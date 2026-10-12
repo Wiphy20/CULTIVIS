@@ -38,6 +38,15 @@ O CULTIVIS está organizado em componentes que trabalham em conjunto para viabil
 
 A integração completa entre todos os componentes está em evolução.
 
+## 📚 Documentação
+
+Para conhecer melhor a estrutura técnica do CULTIVIS, consulte:
+
+- [Arquitetura do sistema](docs/arquitetura.md) — visão geral dos componentes, tecnologias e organização da solução.
+- **Testes e validação:** documentação em preparação.
+- **Hardware e IoT:** materiais visuais e registros de testes serão adicionados.
+- **Aplicativo mobile:** documentação a atualizar após confirmação do estado atual com a equipe.
+
 ## 🧰 Tecnologias utilizadas
 
 **Back-End**

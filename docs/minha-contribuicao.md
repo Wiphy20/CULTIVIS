@@ -6,51 +6,78 @@ No desenvolvimento do **CULTIVIS — Sistema Inteligente para Gerenciamento e Mo
 
 Meu objetivo é contribuir para uma estrutura que permita integrar os diferentes componentes do sistema, organizar os dados agrícolas e implementar regras de negócio que apoiem o monitoramento e o gerenciamento das propriedades rurais.
 
-## 1. Desenvolvimento Back-End
+## 1. Desenvolvimento Back-End e autenticação
 
-Participei do desenvolvimento da estrutura de Back-End, trabalhando na implementação da lógica responsável pelo processamento das informações e pela comunicação entre os componentes do sistema.
+Fui responsável pelo desenvolvimento das funcionalidades de autenticação do CULTIVIS, além de atuar na implementação da estrutura de Back-End e das regras de negócio da aplicação.
 
-Minhas atividades incluem:
+Minha atuação incluiu a implementação dos mecanismos necessários à autenticação dos usuários, à validação de dados e ao controle de acesso, contribuindo para a segurança e a organização do funcionamento do sistema.
 
-- Implementação de rotas, controllers e services.
+Também fui responsável pela elaboração da parte escrita do TCC referente à autenticação, documentando essa funcionalidade no contexto do projeto.
+
+### Principais responsabilidades
+
+- Implementação das funcionalidades de autenticação.
+- Desenvolvimento e integração da lógica de controle de acesso.
+- Validação dos dados de entrada.
+- Implementação de rotas, controllers e services do Back-End.
 - Desenvolvimento de regras de negócio.
-- Implementação de mecanismos de autenticação e controle de acesso.
-- Validação de dados de entrada.
-- Processamento de informações relacionadas aos sensores e aos alertas.
-- Integração dos componentes necessários ao funcionamento do sistema.
+- Processamento dos dados relacionados ao monitoramento agrícola e aos alertas.
 
 ### Tecnologias utilizadas
 
-- Node.js
-- TypeScript
-- APIs REST
-- Supabase Auth
-- Zod
-- bcrypt
+- Node.js e TypeScript.
+- APIs REST.
+- Supabase Auth.
+- Zod para validação de dados.
+- bcrypt para operações de segurança relacionadas a dados sensíveis.
 
-## 2. Modelagem e gerenciamento do banco de dados
+## 2. Modelagem, implementação e testes do banco de dados
 
-Fui responsável por grande parte do trabalho de modelagem e implementação do banco de dados, incluindo o planejamento das tabelas, a definição dos relacionamentos e a organização das informações necessárias ao sistema.
+Fui responsável por todo o trabalho relacionado ao banco de dados do CULTIVIS, desde o planejamento e a modelagem até a implementação e os testes.
 
-A estrutura foi planejada para atender às diferentes áreas do gerenciamento agrícola, como propriedades, plantações, sensores, produção e alertas.
+Essa atuação envolveu a definição da estrutura de dados necessária ao sistema, a criação das tabelas, o estabelecimento dos relacionamentos entre as entidades e a verificação do funcionamento da estrutura implementada.
 
-Também trabalhei na integração do Back-End com a camada de persistência de dados, utilizando Prisma ORM e Supabase com PostgreSQL.
+O banco de dados foi projetado para organizar as informações relacionadas às propriedades rurais, plantações, sensores, produção e alertas, permitindo que os diferentes componentes do sistema utilizem os dados de forma estruturada.
 
-### Principais atividades
+### Principais responsabilidades
 
-- Planejamento da estrutura do banco de dados.
-- Criação e organização das tabelas.
-- Definição dos relacionamentos entre as entidades.
-- Integração entre a aplicação e o banco de dados.
-- Consideração da integridade e da organização dos dados.
+- Planejamento e modelagem do banco de dados.
+- Definição das entidades e de seus relacionamentos.
+- Criação e implementação das tabelas.
+- Organização e integridade dos dados.
+- Integração do banco de dados com o Back-End.
+- Realização de testes para verificar consultas, inserções e relacionamentos.
+- Estruturação dos dados necessários ao processamento das leituras dos sensores e à geração de alertas.
 
-## 3. Processamento de leituras e alertas
+### Tecnologias utilizadas
 
-Também participei da implementação e adaptação da lógica responsável pelo processamento das leituras dos sensores e pelo tratamento dos alertas.
+- PostgreSQL.
+- Supabase.
+- Prisma ORM.
 
-Essa parte do sistema busca transformar os dados coletados em informações úteis para o acompanhamento das condições monitoradas, contribuindo para que situações relevantes possam ser identificadas e apresentadas ao usuário.
+## 3. Processamento de dados dos sensores e sistema de alertas
 
-O CULTIVIS contempla a integração com sensores de temperatura, umidade e pH, utilizados no contexto do monitoramento agrícola.
+No desenvolvimento do monitoramento agrícola, minha responsabilidade está relacionada ao tratamento dos dados após sua coleta pelos dispositivos IoT.
+
+Enquanto outro integrante da equipe ficou responsável pela programação do ESP32 e dos sensores em C/C++, incluindo a coleta das informações e a conexão dos dispositivos ao Supabase, trabalhei no restante do fluxo de processamento dessas informações dentro do sistema.
+
+Minha atuação envolve a lógica responsável por lidar com os dados coletados, processá-los e disponibilizá-los para as funcionalidades do CULTIVIS.
+
+### Principais responsabilidades
+
+- Implementação e adaptação da lógica de processamento das leituras dos sensores.
+- Tratamento dos dados recebidos dos dispositivos IoT.
+- Desenvolvimento da lógica relacionada à geração de alertas automáticos.
+- Integração do processamento dos dados com as funcionalidades do sistema.
+- Preparação do fluxo de informações que serão apresentadas ao usuário no aplicativo.
+
+O sistema contempla leituras relacionadas à temperatura, à umidade e ao pH, utilizadas no contexto do monitoramento agrícola.
+
+### Evolução do monitoramento em tempo real
+
+Uma das próximas etapas é concluir o dashboard de monitoramento do aplicativo. Para isso, pretendo utilizar o **Supabase Realtime**, permitindo que as atualizações relevantes sejam refletidas na interface em tempo real.
+
+Essa funcionalidade ainda está em desenvolvimento e, por isso, não é apresentada como uma implementação concluída.
 
 ## 4. Protótipo experimental de inteligência artificial
 

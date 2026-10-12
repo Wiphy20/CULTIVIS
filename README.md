@@ -40,12 +40,17 @@ A integração completa entre todos os componentes está em evolução.
 
 ## 📚 Documentação
 
-Para conhecer melhor a estrutura técnica do CULTIVIS, consulte:
+Para conhecer melhor a estrutura técnica do CULTIVIS, consulte a documentação do projeto:
 
-- [Arquitetura do sistema](docs/arquitetura.md) — visão geral dos componentes, tecnologias e organização da solução.
-- **Testes e validação:** documentação em preparação.
-- **Hardware e IoT:** materiais visuais e registros de testes serão adicionados.
-- **Aplicativo mobile:** documentação a atualizar após confirmação do estado atual com a equipe.
+🏗️ Arquitetura do sistema — visão geral dos componentes, tecnologias e organização da solução.
+
+👨‍💻 Minha contribuição — descrição da minha atuação no Back-End, autenticação, banco de dados, processamento dos dados dos sensores, alertas e protótipo de IA.
+
+🧪 Testes e validação: documentação em preparação, com registros dos testes realizados no sistema.
+
+🔌 Hardware e IoT: materiais visuais e registros dos testes com sensores e dispositivos.
+
+📱 Aplicativo mobile: documentação das funcionalidades e da integração com os demais componentes, a atualizar após confirmação do estado atual com a equipe.
 
 ## 🧰 Tecnologias utilizadas
 
